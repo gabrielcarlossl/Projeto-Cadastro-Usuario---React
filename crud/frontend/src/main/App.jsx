@@ -9,7 +9,7 @@ import React from 'react'
 
 export default function App(props) {
   return (
-    <div>
+    <div className='app'>
         <Logo></Logo>
         <Nav></Nav>
         <Main></Main>
