@@ -1,4 +1,6 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 
 import Logo from '../components/template/Logo'
 import Nav from '../components/template/Nav'
@@ -12,7 +14,7 @@ export default function App(props) {
     <div className='app'>
         <Logo></Logo>
         <Nav></Nav>
-        <Main></Main>
+        <Main icon='home' title='Início' subtitle='Projeto Cadastro de Usuários'></Main>
         <Footer></Footer>
     </div>
   )
