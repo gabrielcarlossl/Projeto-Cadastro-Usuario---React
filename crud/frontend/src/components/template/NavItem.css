@@ -1,0 +1,11 @@
+div > a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+div > a:hover{
+    background-color: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+}

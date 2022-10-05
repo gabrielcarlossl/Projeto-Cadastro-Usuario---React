@@ -1,9 +1,22 @@
 import './Nav.css'
 
+
+
+import NavItem from './NavItem'
+
 import React from 'react'
 
 export default function Nav(props) {
   return (
-    <nav className='menu-area'>Nav</nav>
+    <aside className='menu-area'>
+      <nav className="menu">
+
+        <NavItem link='#/' icon='home' titulo='Início'></NavItem>
+        
+        <NavItem link='#/users' icon='users' titulo='Usuários'></NavItem>
+
+        
+      </nav>
+    </aside>
   )
 }
