@@ -27,7 +27,7 @@ class UserCrud extends Component {
     
     //função para limpar ai clicar no botão de cancelar
     clear(){
-        this.setState({user: initialState})
+        this.setState({user: initialState.user})
     }
     
     save(){
