@@ -14,7 +14,11 @@ export default function App(props) {
     <div className='app'>
         <Logo></Logo>
         <Nav></Nav>
-        <Main icon='home' title='Início' subtitle='Projeto Cadastro de Usuários'></Main>
+        <Main icon='home' title='Início' subtitle='Projeto Cadastro de Usuários'>
+          <div className='display-4'> Bem Vindo</div>
+          <hr />
+          <p className='mb-0'>Sistema para cadastro feito com  React.</p>
+        </Main>
         <Footer></Footer>
     </div>
   )
