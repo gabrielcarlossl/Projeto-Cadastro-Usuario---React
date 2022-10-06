@@ -1,6 +1,6 @@
 import './Nav.css'
 
-
+import './NavItem.css'
 
 import NavItem from './NavItem'
 
