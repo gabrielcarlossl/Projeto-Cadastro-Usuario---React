@@ -1,11 +1,24 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Gabriel Carlos",
-        "email": "gabrielcarlos@email.com.br"
-    },{
-        "id": 2,
-        "name": "Maria Socorro",
-        "email": "maria@email.com.br"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Gabriel Carlos",
+      "email": "gabrielcarlos@email.com.br"
+    },
+    {
+      "id": 2,
+      "name": "Maria do Socorro Leite Batista",
+      "email": "maria@email.com.br"
+    },
+    {
+      "name": "Socorro Leite",
+      "email": "socorro@email.com",
+      "id": 5
+    },
+    {
+      "name": "GABRIEL",
+      "email": "gabriel@email.com",
+      "id": 6
+    }
+  ]
 }

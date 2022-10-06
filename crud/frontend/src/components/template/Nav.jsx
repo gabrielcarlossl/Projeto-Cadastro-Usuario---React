@@ -11,9 +11,9 @@ export default function Nav(props) {
     <aside className='menu-area'>
       <nav className="menu">
 
-        <NavItem link='#/' icon='home' titulo='Início'></NavItem>
+        <NavItem link='/' icon='home' titulo='Início'></NavItem>
         
-        <NavItem link='#/users' icon='users' titulo='Usuários'></NavItem>
+        <NavItem link='/users' icon='users' titulo='Usuários'></NavItem>
 
         
       </nav>

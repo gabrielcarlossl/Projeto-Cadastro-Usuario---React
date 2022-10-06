@@ -6,21 +6,21 @@ import Logo from '../components/template/Logo'
 import Nav from '../components/template/Nav'
 import Footer from '../components/template/Footer'
 
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Routes from './Routes'
 
 import React from 'react'
 
 export default function App(props) {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className='app'>
         <Logo></Logo>
         <Nav></Nav>
         <Routes></Routes>
         <Footer></Footer>
       </div>
-    </HashRouter>
+    </BrowserRouter>
 
   )
 }
